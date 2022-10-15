@@ -1,4 +1,4 @@
-# nfair
+# FairTrade
 
 A new Flutter project.
 
