@@ -38,28 +38,28 @@ class BankCard extends StatelessWidget {
                       offset: Offset(0, 1),
                     ),
             ],
-            // gradient: const LinearGradient(
-            //   colors: [
-            //     Color(0xFFB039D2),
-            //     Color(0xFF39D2C0),
-            //   ],
-            //   stops: [0, 1],
-            //   begin: AlignmentDirectional(0.94, -1),
-            //   end: AlignmentDirectional(-0.94, 1),
-            // ),
+            gradient: const LinearGradient(
+              colors: [
+                Color(0xFFB039D2),
+                Color(0xFF39D2C0),
+              ],
+              stops: [0, 1],
+              begin: AlignmentDirectional(0.94, -1),
+              end: AlignmentDirectional(-0.94, 1),
+            ),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Stack(
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: SvgPicture.asset(
-                  'assets/svgs/card_bg.svg',
-                  fit: BoxFit.cover,
-                  width: MediaQuery.of(context).size.width * 0.95,
-                  height: MediaQuery.of(context).size.width * 0.95 / 1.6,
-                ),
-              ),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(10),
+              //   child: SvgPicture.asset(
+              //     'assets/svgs/card_bg.svg',
+              //     fit: BoxFit.cover,
+              //     width: MediaQuery.of(context).size.width * 0.95,
+              //     height: MediaQuery.of(context).size.width * 0.95 / 1.6,
+              //   ),
+              // ),
               Padding(
                 padding: EdgeInsets.symmetric(
                     horizontal: MediaQuery.of(context).size.width * 0.95 * 0.02,
